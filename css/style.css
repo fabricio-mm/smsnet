@@ -1,5 +1,16 @@
+/* FONTES UTILIZADAS */
+@font-face {
+    font-family: Inter;
+    src: url(/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Baskervville;
+    src: url(/fonts/Baskervville-Regular.ttf)
+}
+
 body {
-    font-family: Lucida, sans-serif;
+    font-family: Inter;
     text-align: center;
 }
 h1 {
