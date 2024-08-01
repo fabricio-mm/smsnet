@@ -16,7 +16,7 @@ body {
 h1 {
     font-size: 24px;
 }
-nav {
+.navegacao{
     background-color: #f864f8;
     color: #4df778;
     padding: 10px;
@@ -36,4 +36,5 @@ nav ul li a {
 
 .cabecalho{
     font-family: Inter;
+    background: black;
 }
