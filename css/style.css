@@ -1,11 +1,22 @@
+/* FONTES UTILIZADAS */
+@font-face {
+    font-family: Inter;
+    src: url(/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Baskervville;
+    src: url(/fonts/Baskervville-Regular.ttf)
+}
+
 body {
-    font-family: Lucida, sans-serif;
+    font-family: Inter;
     text-align: center;
 }
 h1 {
     font-size: 24px;
 }
-nav {
+.navegacao{
     background-color: #f864f8;
     color: #4df778;
     padding: 10px;
@@ -21,4 +32,9 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+}
+
+.cabecalho{
+    font-family: Inter;
+    background: black;
 }
