@@ -13,9 +13,23 @@ body {
     font-family: Inter;
     text-align: center;
 }
+.straykids{
+    width: 50%;
+
+}
+
 h1 {
     font-size: 24px;
+    font-family:Inter;
+
 }
+h2{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
 .navegacao{
     background-color: #f864f8;
     color: #4df778;
@@ -37,4 +51,6 @@ nav ul li a {
 .cabecalho{
     font-family: Inter;
     background: black;
+
+
 }
