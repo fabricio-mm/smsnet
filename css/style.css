@@ -17,9 +17,11 @@ h1 {
     font-size: 24px;
 }
 .navegacao{
-    background-color: #f864f8;
-    color: #4df778;
-    padding: 10px;
+    background-color: #602080;
+    color: #fff;
+    margin-top: -16px;
+    text-align: center;
+    
 }
 nav ul {
     list-style: none;
@@ -36,5 +38,8 @@ nav ul li a {
 
 .cabecalho{
     font-family: Inter;
-    background: black;
+    background: #602080;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
