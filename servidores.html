@@ -3,18 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/servidores.css">
     <script src="js/main.js"></script>
 </head>
 <body>
-    <header class="cabecalho">SMSNET</header>
-    <nav class="navegacao">
-        <ul>
-            <li><a href="diagramas.html">Diagrama da Rede</a></li>
-            <li><a href="servidores.html">Servidores</a></li>
-            <li><a href="equipe.html">Equipe</a></li>
-        </ul>
-    </nav>
+    <header>
+        <div type="container">
+            <div class="logo"><a href="index.html">S M S N E T</a></div>
+            <div class="menu">
+                <nav class="menu-nav">
+                    <a href="diagramas.html"><button class="botao-menu"><img src="icons/globo.png" alt="globo"></button></a>
+                    <a href="equipe.html"><button class="botao-menu"><img src="icons/equipe.png" alt="globo"></button></a>
+                    <a href="servidores.html"><button class="botao-menu"><img src="icons/servidor.png" alt="globo"></button></a>
+                </nav>
+            </div>
+            </div>
+    </header>
     <!-- Conteúdo principal aqui -->
+     <div type="container" class="texto-div">
+        <section class="texto">
+            <h1>Explicando os servidores da T.I:</h1>
+            <p>Na secretaria municipal de saúde a maior parte dos servidores estão virtualizados</p>
+            <p>dentro de uma máquina física que chamamos de HYPER-V, nele estão contidos: </p>
+            <ul type="disc">
+                <li>Active Directory</li>
+                <li>Active Directory (Sei)</li>
+                <li>Servidor de Arquivo</li>
+                <li>Servidor de Impressão</li>
+                <li>Servidor do Correios</li>
+                <li>Controladora</li>
+            </ul>
+        </section>
+     </div>
 </body>
 </html>

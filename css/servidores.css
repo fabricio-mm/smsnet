@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Inter;
+    src: url(/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Baskervville;
+    src: url(/fonts/Baskervville-Regular.ttf)
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    background-color: rgba(55, 7, 100, 0.829);
+}
+.logo a{
+    color: aliceblue;
+    font-family: Baskervville;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
+.logo a:hover{
+    text-decoration: underline;
+}
+.menu{
+    background-color: rgba(240, 248, 255, 0.541);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-menu{
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.botao-menu img{
+    width: 50%;
+}
+.texto-div{
+    font-family: Inter;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    background-color: #7997bb1e;
+    margin-right: 50%;
+}
