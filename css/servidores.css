@@ -43,11 +43,16 @@
     width: 50%;
 }
 .texto-div{
-    font-family: Inter;
-    font-size: 19px;
-    display: flex;
     justify-content: center;
     padding: 5%;
     background-color: #7997bb1e;
-    margin-right: 50%;
-}
+    font-family: Inter;
+    font-size: 19px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    }
+    .div1, .div2{
+        padding: 10px;
+        border: 1px solid black;
+    }
