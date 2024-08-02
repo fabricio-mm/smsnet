@@ -1,0 +1,133 @@
+/* FONTES UTILIZADAS */
+@font-face {
+    font-family: Inter;
+    src: url(/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Baskervville;
+    src: url(/fonts/Baskervville-Regular.ttf)
+}
+
+@font-face {
+    font-family: Meditative;
+    src: url(/fonts/Meditative.ttf)
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* INÍCIO */
+.cabecalho {
+    background-color: #d369d3;
+    max-width: 100%;
+}
+
+.main-title {
+    font-family: Inter;
+    font-size: 40px;
+    padding: 15px;
+    margin-left: 30px;
+}
+
+.main-title a {
+    text-decoration-line: none;
+    color: rgb(255, 255, 255);
+}
+
+/* NAVBAR - INÍCIO*/
+.navegacao {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #bd5abd;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: Inter;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #f064f0;
+}
+
+/* NAVBAR - FIM*/
+
+/* CONTAINER - INÍCIO*/
+.container {
+    display: inline-block;
+    margin: 30px 20px;
+}
+
+.titulo {
+    font-family: Inter;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    margin-bottom: 15px;
+}
+
+.subtitulo {
+    font-family: Baskervville;
+}
+
+.infos {
+    margin: 15px;
+    line-height: 1.5pc;
+}
+
+.main-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.descricao {
+    margin-top: 15px;
+    font-family: Baskervville;
+}
+
+/* IMG CONTAINER (INÍCIO) */
+.img-box {
+    border-radius: 5px; 
+    width: 40%;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-box:hover {
+    cursor: pointer; 
+    opacity: 0.8;
+}
+
+.box {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.legenda {
+    font-size: 14px;
+    font-family: Inter;
+}
+
+/* IMG CONTAINER (FIM)*/
+
+.diagrama-atual {
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+}
