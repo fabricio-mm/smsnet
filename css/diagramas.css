@@ -20,7 +20,6 @@
     box-sizing: border-box;
 }
 
-/* INÍCIO */
 .cabecalho {
     background-color: #d369d3;
     max-width: 100%;
@@ -38,7 +37,6 @@
     color: rgb(255, 255, 255);
 }
 
-/* NAVBAR - INÍCIO*/
 .navegacao {
     padding: 20px;
     text-align: center;
@@ -67,9 +65,6 @@ nav ul li a:hover {
     background-color: #aa4faa;
 }
 
-/* NAVBAR - FIM*/
-
-/* CONTAINER - INÍCIO*/
 section {
     background-color: #f1f1f1;
 }
@@ -116,7 +111,6 @@ section {
     text-decoration-line: underline;
 }
 
-/* IMG CONTAINER (INÍCIO) */
 .card-box {
     display: inline-block;
     margin-top: 15px;
@@ -127,7 +121,7 @@ section {
     float: left; 
     border-radius: 5px; 
     margin-right: 30px; 
-    width: 30%;
+    width: 32%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
     transition: 0.3s;
@@ -158,8 +152,6 @@ section {
 
 }
 
-/* IMG CONTAINER (FIM)*/
-/* IMG MODAL (INÍCIO)*/
 .div-img {
     display: none; 
     position: fixed; /*Para manter a div fixa.*/
@@ -193,7 +185,6 @@ section {
 
 .list {
     display: block; 
-    font-family: Inter;
     font-size: larger;
     color: white;
     margin-top: 15px; 
@@ -204,6 +195,7 @@ section {
     border-bottom: 10px solid #aa4faa;
     border-radius: 5px; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.26);
+    cursor: pointer;
 }
 
 .list li {
@@ -244,4 +236,11 @@ h3 {
     from {transform: scale(0.1)} 
     to {transform: scale(1)}
   }
+
+footer {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 5px; 
+}
 
