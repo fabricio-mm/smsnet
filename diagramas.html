@@ -21,29 +21,59 @@
         </nav>
     </header>
 
-
-    <div class="container">
-        <h1 class="titulo">Rede SMS</h1>
-        <div class="infos">
-            <h2 class="subtitulo">A nossa rede </h2>
-            <p class="descricao">Montar uma infraestrutura adequada de rede para atender os usuários é essencial para
-                uma
-                secretaria
-                de tamanho porte como a Secretaria Municipal de Saúde de Contagem. Visando um melhor entendimento da
-                nossa
-                rede, criamos
-                um breve diagrama explicativo ilustrando a nossa rede atual.
-            </p>
-            <div class="img-box">
-                <div class="box">
-                    <img src="img/Mapeamento atual sms.jpg" alt="" class="diagrama-atual">
-                    <p class="legenda">Ilustração do nosso diagrama de rede atualmente.</p>
+    <section>
+        <div class="container">
+            <h1 class="titulo">Rede SMS</h1>
+            <div class="infos">
+                <h2 class="subtitulo">A nossa rede atual</h2>
+                <p class="descricao">
+                    Montar uma infraestrutura adequada de rede para atender os usuários é essencial para
+                    uma secretaria de tamanho porte como a Secretaria Municipal de Saúde de Contagem.
+                    Para uma rede ideal, é necessário que ela seja uma <span class="target">rede segura (proteção dos
+                        dados), rápida e eficiente na comunicação interna,</span>
+                    além disso, seu desempenho deve ser constantemente monitorado. Visando um melhor entendimento da
+                    nossa rede, criamos um breve diagrama explicativo ilustrando a nossa rede atual.
+                </p>
+                <!--Caixinha da imagem-->
+                <div class="card-box">
+                    <div class="card">
+                        <img src="img/Mapeamento atual sms.jpg" alt="Diagrama atual da rede da SMS" id="diagrama-atual">
+                        <p class="legenda">Clique aqui para visualizar a foto</p>
+                    </div>
+                    <p class="txtDiagrama">
+                        Atualmente a SMS conta com quatro datacenters ou racks. São eles:</p>
+                    <ul class="list">
+                        <li>Rack TI (Principal)</li>
+                        <li>Rack TI (Antigo)</li>
+                        <li>Gabinete</li>
+                        <li>Visa</li>
+                    </ul>
+                    <h3>Os racks:</h3>
+                    <p class="txtDiagrama">Os racks são locais físicos onde ficam armazenados os switchs, patch panels,
+                        máquinas, cabos de rede, cabos de fibra, etc.
+                        Os switchs estão nele e são responsáveis pela <span class="target">comunicação entre
+                            dispositivos na rede.</span><br></p>
+                        <h3>Os links:</h3>
+                        <p class="txtDiagrama">
+                        Os <span class="target">links</span> fornecem Internet aos switches geralmente se localizam nas primeiras ou últimas
+                        portas, e, pelo fato de haverem muitos hosts na rede, os demais switchs são alimentados nos
+                        links através de um <span class="target">processo de cascateamento.<br></span></p><br>
+                        <h3>Os cabos:</h3>
+                        <p class="txtDiagrama">São os cabos de rede
+                        do tipo CAT5/CAT6 que saem dos switches e passam pelos patch panels que fornecem Internet
+                        cabeada para toda a Secretaria de Saúde.
+                        A ONLINE Soluções é a nossa provedora de Internet (ISP).
+                    </p>
                 </div>
-
             </div>
+
         </div>
-    </div>
-    </div>
+        <div class="div-img">
+            <span class="close">&times;</span>
+            <img class="modal-img">
+            <div class="caption"></div>
+        </div>
+    </section>
 
 </body>
 
