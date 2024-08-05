@@ -41,9 +41,11 @@ body{
 
 }
 .menu{
+    text-align: center;
     padding: auto;
     margin: auto;
-    padding-left: 606px;
+    justify-content: center;
+    width: 200px;
 }
 
 .botao-menu{
@@ -58,6 +60,7 @@ body{
 }
 .hyperv{
     display: flex;
+    justify-content: center
 }
 .card{
     font-size: large;
@@ -84,6 +87,7 @@ body{
     -webkit-flex-direction: row-reverse;
     flex-direction: row-reverse;
     display: flex;
+    justify-content: center;
 }
 .image2{
     display: flex;
