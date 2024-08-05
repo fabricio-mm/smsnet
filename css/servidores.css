@@ -7,56 +7,125 @@
     font-family: Baskervville;
     src: url(/fonts/Baskervville-Regular.ttf)
 }
+body{
+    background-color: rgba(255, 255, 255, 0.548);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.logo{
-    background-color: rgba(55, 7, 100, 0.829);
+.container{
+    display:block;
+
+}
+.container .logo{
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(206, 206, 206, 0.212);
+    border: 1px;
+    border-radius: 5px;
+    height: 50px;
+    width: 850px;
+    margin: auto;
 }
 .logo a{
-    color: aliceblue;
-    font-family: Baskervville;
-    font-size: 30px;
-    justify-content: center;
-    display: flex;
-    text-decoration: none;
-}
-.logo a:hover{
-    text-decoration: underline;
-}
-.menu{
-    background-color: rgba(240, 248, 255, 0.541);
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: auto;
+    padding-top: 8px;
+    font-family: Baskervville;
+    font-size: 25px;
+    text-decoration: solid;
+
+}
+.menu{
+    padding: auto;
+    margin: auto;
+    padding-left: 606px;
 }
 
 .botao-menu{
+    justify-content: center;
     background-color: transparent;
     border-radius: 10px;
     border-color: transparent;
 }
 
 .botao-menu img{
+    width: 30px;
+}
+.hyperv{
+    display: flex;
+}
+.card{
+    font-size: large;
+    padding-left: 25px;
+    border-radius: 5px;
+    margin: 50px;
+    height: 300px;
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 0, 255, 0.13);
+}
+.image{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.vsphere{
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    display: flex;
+}
+.image2{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+#specs{
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
     width: 50%;
 }
-.texto-div{
+.super{
+    background-color: rgba(255, 0, 255, 0);
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.super .HV{
+    background-color:  rgba(255, 0, 255, 0.13);
+    height: 125px;
+    padding-top: 5px;
+    padding-left: 45px;
+    width: 400px;
+    align-items: center;
     justify-content: center;
-    padding: 5%;
-    background-color: #7997bb1e;
-    font-family: Inter;
-    font-size: 19px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    }
-    .div1, .div2{
-        padding: 10px;
-        border: 1px solid black;
-    }
-.texto-div img{
-    width: 70%;
-    
+    border-radius: 10px;
+}
+.super .ADSMS{
+    background-color:  rgba(255, 0, 255, 0.13);
+    height: 125px;
+    padding-top: 5px;
+    padding-left: 45px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }
