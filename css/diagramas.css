@@ -93,7 +93,7 @@ section {
 
 .titulo {
     font-family: Inter;
-    border-bottom: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(255, 253, 253);
     margin-bottom: 15px;
 }
 
@@ -103,8 +103,15 @@ section {
 
 .infos {
     display: inline-block;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
     line-height: 1.5pc;
+}
+.infos .card-box .new-card img{
+    width: 40%;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-title {
@@ -130,7 +137,10 @@ section {
 
 .card-box {
     display: inline-block;
+    justify-content: center;
     margin-top: 15px;
+    width: 100%;
+    background-color: #fcfcfc;
 }
 
 .card {
@@ -230,11 +240,8 @@ section {
 
 h3 {
     margin-top: 15px;
-    border-bottom: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
-
-
-.modal-img,
 .caption {
     animation-name: zoom;
     animation-duration: 0.6s;
@@ -288,15 +295,22 @@ footer {
 
 .new-card {
     display: block;
-    border-radius: 5px;
+    border-radius: 4px;
+    justify-content: center;
+    margin-left: 17%;
     float: left; 
-    width: 40%;
-    height: 60%; 
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
+    background-color: #ff18ff;
+    width: 70%;
+    height: 100%; 
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.247), 0 2px 5px 0 rgba(0, 0, 0, 0.466);
     transition: 0.3s;
     transform: transform .2s;
     text-align: center;
+}
+.new-card img{
+    height: 600px;
+    width: 100%;
 }
 
 .new-card:hover {
@@ -333,8 +347,6 @@ footer {
     border-radius: 15px;
     background-color: #926cc4
 }
-
-.new-modal-img,
 .new-caption {
     animation-name: zoom;
     animation-duration: 0.6s;
