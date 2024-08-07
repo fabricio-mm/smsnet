@@ -42,26 +42,96 @@ nav ul li a {
     display: block;
 }
 
-.container{
-    display: block;
-    background-color: rgba(0, 255, 255, 0);
-}
-#block-text{
-    background-color: #6020803f;
-    text-align: center;
+.Kamilly{
     display: flex;
+    justify-content: center
+}
+.card{
+    font-size: 25px;
+    padding-left: 25px;
+    border-radius: 5px;
+    margin: 50px;
     height: 300px;
-    width: 400px;
-    text-wrap: wrap;
-
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 0, 255, 0.13);
 }
 .image{
     display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0);
 }
 .image img{
-    margin-left: 90px;
     height: 100%;
-    width: 250px;
+    width: 300px;
 }
+.Arthur{
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+}
+.image2{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0);
 
+}
+.image2 img{
+    height: 100%;
+    width: 300px;
+}
+#specs{
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    width: 50%;
+}
+.super{
+    background-color: rgba(255, 0, 255, 0);
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.super .HV{
+    background-color:  rgba(255, 0, 255, 0.13);
+    height: 125px;
+    padding-top: 5px;
+    padding-left: 45px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.super .ADSMS{
+    background-color:  rgba(255, 0, 255, 0.13);
+    height: 125px;
+    padding-top: 5px;
+    padding-left: 45px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.Fabricio{
+    display: flex;
+    justify-content: center;
+}
+.Lucas{
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+}
 
