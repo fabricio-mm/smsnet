@@ -1,0 +1,137 @@
+
+@font-face {
+    font-family: Inter;
+    src: url(/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Baskervville;
+    src: url(/fonts/Baskervville-Regular.ttf)
+}
+
+body {
+    font-family: Inter;
+    text-align: center;
+}
+h1 {
+    font-size: 24px;
+}
+.navegacao{
+    background-color: #602080;
+    text-align: center;
+    
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cabecalho{
+    font-family: Inter;
+    background: #602080;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+
+.Kamilly{
+    display: flex;
+    justify-content: center
+}
+.card{
+    font-size: 25px;
+    padding-left: 25px;
+    border-radius: 5px;
+    margin: 50px;
+    height: 300px;
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 0, 255, 0.13);
+}
+.image{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.image img{
+    height: 100%;
+    width: 300px;
+}
+.Arthur{
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+}
+.image2{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+.image2 img{
+    height: 100%;
+    width: 300px;
+}
+#specs{
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    width: 50%;
+}
+.super{
+    background-color: rgba(255, 0, 255, 0);
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.super .HV{
+    background-color:  rgba(255, 0, 255, 0.13);
+    height: 125px;
+    padding-top: 5px;
+    padding-left: 45px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.super .ADSMS{
+    background-color:  rgba(255, 0, 255, 0.13);
+    height: 125px;
+    padding-top: 5px;
+    padding-left: 45px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.Fabricio{
+    display: flex;
+    justify-content: center;
+}
+.Lucas{
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+}
+
