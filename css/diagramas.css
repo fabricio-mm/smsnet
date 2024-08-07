@@ -1,3 +1,21 @@
+@font-face {
+    font-family: Inter;
+    src: url(/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Baskervville;
+    src: url(/fonts/Baskervville-Regular.ttf)
+}
+body{
+    background-color: rgba(255, 255, 255, 0.993);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* FONTES UTILIZADAS */
 @font-face {
     font-family: Inter;
@@ -19,55 +37,53 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.header{
+    display:block;
 
-.cabecalho {
-    background-color: #d369d3;
-    width: 100%;
 }
-
-.main-title {
-    font-family: Inter;
-    font-size: 40px;
-    padding: 15px;
-    margin-left: 30px;
+.header .logo{
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(206, 206, 206, 0.212);
+    border: 1px;
+    border-radius: 5px;
+    height: 50px;
+    width: 850px;
+    margin: auto;
 }
+.logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    padding-top: 8px;
+    font-family: Baskervville;
+    font-size: 25px;
+    text-decoration: solid;
 
-.main-title a {
-    text-decoration-line: none;
-    color: rgb(255, 255, 255);
 }
-
-.navegacao {
-    padding: 20px;
+.menu{
     text-align: center;
-    border-bottom: 10px solid #bd5abd;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    width: 200px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    font-family: Inter;
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    padding: 10px;
+.botao-menu{
+    justify-content: center;
+    background-color: transparent;
     border-radius: 10px;
+    border-color: transparent;
 }
 
-nav ul li a:hover {
-    transition: 0.3s;
-    background-color: #aa4faa;
+.botao-menu img{
+    width: 30px;
 }
+
 
 section {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
 }
 
 .container {
@@ -267,6 +283,7 @@ footer {
     display: block;
     margin: 30px auto;
     width: 100%;
+    
 }
 
 .new-card {
@@ -345,18 +362,66 @@ footer {
 }
 
 .plantas-sms {
-    display: block; 
+    display: flex; 
+    flex-wrap: wrap;
 }
 
 #primeiro-andar {
-    width: 50%;
+    width: 330px;
+    height: 200px;
     padding: 15px; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
     margin-left: 50px; 
 }
 
 #segundo-andar {
-    width: 40%; 
+    width: 330px; 
+    height: 200px;
+    padding: 15px; 
+    margin-left: 110px; 
+    margin-top: 30px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
+}
+
+#laboratorio {
+    width: 330px; 
+    height: 200px;
+    padding: 15px; 
+    margin-left: 110px; 
+    margin-top: 30px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
+}
+
+#legenda-setores{
+    width: 330px; 
+    height: 200px;
+    padding: 15px; 
+    margin-left: 110px; 
+    margin-top: 30px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
+}
+
+#vigilancia{
+    width: 330px;
+    height: 200px; 
+    padding: 15px; 
+    margin-left: 110px; 
+    margin-top: 30px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
+}
+
+#transporte{
+    width: 330px;
+    height: 200px; 
+    padding: 15px; 
+    margin-left: 110px; 
+    margin-top: 30px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
+}
+
+#manutencao{
+    width: 330px;
+    height: 200px; 
     padding: 15px; 
     margin-left: 110px; 
     margin-top: 30px; 
