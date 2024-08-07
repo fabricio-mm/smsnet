@@ -44,21 +44,24 @@ nav ul li a {
 
 .container{
     display: block;
-    justify-content: center;
-    align-items: center;
-
+    background-color: rgba(0, 255, 255, 0);
 }
-.container .image-container{
-width: 200px;
-height: 200px;
-
-}
-
-.image-container img{
-    width: 300px;
-    height: 360px;
+#block-text{
+    background-color: #6020803f;
+    text-align: center;
     display: flex;
-    
+    height: 300px;
+    width: 400px;
+    text-wrap: wrap;
+
+}
+.image{
+    display: flex;
+}
+.image img{
+    margin-left: 90px;
+    height: 100%;
+    width: 250px;
 }
 
 
