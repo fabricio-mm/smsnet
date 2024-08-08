@@ -19,6 +19,12 @@ body{
     display:block;
 
 }
+
+.menu-nav img {
+    cursor: pointer;
+}
+
+
 .container .logo{
     justify-content: center;
     align-items: center;
