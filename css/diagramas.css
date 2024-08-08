@@ -301,7 +301,7 @@ footer {
     float: left; 
     background-color: #ff18ff;
     width: 70%;
-    height: 100%; 
+    height: 400px; 
     background-color: rgba(255, 255, 255, 0);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.247), 0 2px 5px 0 rgba(0, 0, 0, 0.466);
     transition: 0.3s;
@@ -309,8 +309,8 @@ footer {
     text-align: center;
 }
 .new-card img{
-    height: 600px;
-    width: 100%;
+    height: 500px;
+    width: 900px;
 }
 
 .new-card:hover {
@@ -374,68 +374,37 @@ footer {
 }
 
 .plantas-sms {
+    width: 100%;
+    height: auto;
+    justify-content: center;
     display: flex; 
     flex-wrap: wrap;
 }
 
-#primeiro-andar {
-    width: 330px;
+.plantas-sms img{
+    width: 600px;
     height: 200px;
-    padding: 15px; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
-    margin-left: 50px; 
+}
+.nome-img {
+    width: auto;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative; /* Para posicionar a legenda em relação à imagem */
 }
 
-#segundo-andar {
-    width: 330px; 
-    height: 200px;
-    padding: 15px; 
-    margin-left: 110px; 
-    margin-top: 30px; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
+.nome-img img {
+    width: 100%; /* Ajuste o tamanho da imagem conforme necessário */
 }
 
-#laboratorio {
-    width: 330px; 
-    height: 200px;
-    padding: 15px; 
-    margin-left: 110px; 
-    margin-top: 30px; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
-}
-
-#legenda-setores{
-    width: 330px; 
-    height: 200px;
-    padding: 15px; 
-    margin-left: 110px; 
-    margin-top: 30px; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
-}
-
-#vigilancia{
-    width: 330px;
-    height: 200px; 
-    padding: 15px; 
-    margin-left: 110px; 
-    margin-top: 30px; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
-}
-
-#transporte{
-    width: 330px;
-    height: 200px; 
-    padding: 15px; 
-    margin-left: 110px; 
-    margin-top: 30px; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
-}
-
-#manutencao{
-    width: 330px;
-    height: 200px; 
-    padding: 15px; 
-    margin-left: 110px; 
-    margin-top: 30px; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
+.nome-img p {
+    justify-content: center;
+    position: sticky;
+    bottom: 0; /* Posiciona a legenda na parte inferior da imagem */
+    left: 0; /* Alinha a legenda à esquerda */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo da legenda (pode ajustar a cor) */
+    color: #fff; /* Cor do texto da legenda */
+    padding: 8px; /* Espaçamento interno da legenda */
+    font-size: 14px; /* Tamanho da fonte da legenda */
 }
